@@ -17,11 +17,6 @@ module.exports = {
 
     var floorTargetInt = parseInt(floorTarget, 10);
 
-    if(floorSource === floorTargetInt) {
-
-      return 0;
-    }
-
     var out = floorTargetInt - floorSource;
 
     return out;
